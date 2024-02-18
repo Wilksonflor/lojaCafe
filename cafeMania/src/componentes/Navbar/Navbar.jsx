@@ -20,7 +20,8 @@ export const Navbar = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-r from-secondary to-secondary/90 text-white flex justify-between">
+    // bg-gradient-to-r from-secondary  
+    <div className="bg-brandDark text-white flex justify-between">
       <div className="container py-2">
         <div className="flex justify-between">
           {/* logo */}

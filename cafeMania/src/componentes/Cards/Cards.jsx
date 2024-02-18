@@ -1,63 +1,74 @@
 import Img1 from "../../assets/img/café_novo.png";
+import Img2 from "../../assets/img/café03.png";
+import Img3 from "../../assets/img/latteMacchiato.png";
+import Img4 from "../../assets/img/café04.png";
+// import Img5 from "../../assets/img/gelado.png";
 
 export const Cards = () => {
   const produtosData = [
     {
       id: 1,
       img: Img1,
-      name: "Expresso",
+      name: "Tradicional",
       descrição: "Lorem Ipsum is simply dummy text",
       aosDelay: "100",
     },
     {
       id: 2,
-      img: Img1,
+      img: Img2,
       name: "Expresso",
       descrição: "Lorem Ipsum is simply dummy text",
       aosDelay: "100",
     },
     {
       id: 3,
-      img: Img1,
-      name: "Expresso",
+      img: Img3,
+      name: "Latte Macchiato",
       descrição: "Lorem Ipsum is simply dummy text",
       aosDelay: "100",
     },
     {
-      id: 5,
-      img: Img1,
+      id: 4,
+      img: Img4,
       name: "Expresso",
       descrição: "Lorem Ipsum is simply dummy text",
       aosDelay: "100",
     },
-    {
-      id: 6,
-      img: Img1,
-      name: "Expresso",
-      descrição: "Lorem Ipsum is simply dummy text",
-      aosDelay: "100",
-    },
-    {
-      id: 6,
-      img: Img1,
-      name: "Expresso",
-      descrição: "Lorem Ipsum is simply dummy text",
-      aosDelay: "100",
-    },
-    {
-      id: 6,
-      img: Img1,
-      name: "Expresso",
-      descrição: "Lorem Ipsum is simply dummy text",
-      aosDelay: "100",
-    },
-    {
-      id: 6,
-      img: Img1,
-      name: "Expresso",
-      descrição: "Lorem Ipsum is simply dummy text",
-      aosDelay: "100",
-    },
+    // {
+    //   id: 5,
+    //   img: Img3,
+    //   name: "Expresso",
+    //   descrição: "Lorem Ipsum is simply dummy text",
+    //   aosDelay: "100",
+    // },
+    // {
+    //   id: 6,
+    //   img: Img1,
+    //   name: "Tradicional",
+    //   descrição: "Lorem Ipsum is simply dummy text",
+    //   aosDelay: "100",
+    // },
+    // {
+    //   id: 7,
+    //   img: Img1,
+    //   name: "Tradicional",
+    //   descrição: "Lorem Ipsum is simply dummy text",
+    //   aosDelay: "100",
+    // },
+    // {
+    //   id: 8,
+    //   img: Img1,
+    //   name: "Tradicional",
+    //   descrição: "Lorem Ipsum is simply dummy text",
+    //   aosDelay: "100",
+    // },
+    // {
+    //   id: 9,
+    //   img: Img1,
+    //   name: "Tradicional",
+    //   descrição: "Lorem Ipsum is simply dummy text",
+    //   aosDelay: "100",
+    // },
   ];
 
   return (
@@ -68,12 +79,12 @@ export const Cards = () => {
           {/* titulo */}
           <div className="text-center mb-20">
             <h3 className="text-6xl font-bold font-cursive">
-              Melhor café para você!
+              O Melhor café para você!
             </h3>
           </div>
 
           {/* Section dos cards dos produtos */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 mg:grid cols-3 gap-14 md:gap-50 place-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 mg:grid cols-3 gap-14 md:gap-14 place-items-center">
             {produtosData.map((data, index) => {
               return (
                 <div

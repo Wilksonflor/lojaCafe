@@ -5,6 +5,8 @@ import { Navbar } from "./componentes/Navbar/Navbar";
 import { Banner } from "./componentes/Banner/Banner";
 import { Home } from "./pages/Home/Home";
 import { Cards } from "./componentes/Cards/Cards";
+import { AppBanner } from "./componentes/AppBanner/AppBanner";
+import { SlideFeedback } from "./componentes/SlideFeedback/SlideFeedback";
 
 function App() {
   useEffect(() => {
@@ -23,6 +25,8 @@ function App() {
         <Home />
         <Cards />
         <Banner />
+        <AppBanner />
+        <SlideFeedback />
       </div>
     </>
   );
