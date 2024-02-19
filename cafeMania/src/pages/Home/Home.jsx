@@ -8,19 +8,37 @@ export const Home = () => {
           {/* seção do texto */}
 
           <div className="flex flex-col  justify-center h-full overflow-hidden">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
+            <h1
+              data-aos="fade-up"
+              data-aos-once="true"
+              className="text-5xl sm:text-6xl lg:text-7xl font-bold"
+            >
               Explore o melhor{" "}
-              <span className="text-primary/70 font-mark">Café </span>
+              <span
+                className="text-primary/70 font-mark"
+                data-aos="zoom-out"
+                data-aos-delay="300"
+              >
+                Café{" "}
+              </span>
               para DEV
             </h1>
-            <div className="overflow-hidden">
+            <div
+              className="overflow-hidden"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
               <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary rounded-full px-4 py-2 text-white hover:secondary/70 duration-200 my-4">
                 Café e código
               </button>
             </div>
           </div>
           {/* seção da imagem */}
-          <div className="min-h [450px] flex justify-center items-center order-1 sm:order-2 relative">
+          <div
+            className="min-h [450px] flex justify-center items-center order-1 sm:order-2 relative"
+            data-aos="zoom-in"
+            // data-aos-duration="300"
+          >
             <img
               src={Café}
               alt="Imagem do café"

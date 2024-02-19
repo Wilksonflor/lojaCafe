@@ -2,11 +2,12 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Navbar } from "./componentes/Navbar/Navbar";
-import { Banner } from "./componentes/Banner/Banner";
 import { Home } from "./pages/Home/Home";
+import { Banner } from "./componentes/Banner/Banner";
 import { Cards } from "./componentes/Cards/Cards";
 import { AppBanner } from "./componentes/AppBanner/AppBanner";
 import { SlideFeedback } from "./componentes/SlideFeedback/SlideFeedback";
+import { Footer } from "./componentes/Footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -20,13 +21,14 @@ function App() {
 
   return (
     <>
-      <div className="overflow-x-hidden">
+      <div className="overflow-y-hidden overflow-x-hidden">
         <Navbar />
         <Home />
         <Cards />
         <Banner />
         <AppBanner />
         <SlideFeedback />
+        <Footer />
       </div>
     </>
   );

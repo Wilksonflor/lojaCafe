@@ -17,7 +17,7 @@ export const AppBanner = () => {
       <div style={backgroundStyle} className="py-10">
         <div className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-4">
-            <div className="space-y-5 max-w-xl mx-auto ">
+            <div className="space-y-5 max-w-xl mx-auto " data-aos="fade-up">
               <h2 className="text-2xl text-center sm:text-left sm:text-4xl text-white/90 font-semibold pl-3">
                 CaféVida está disponível nas plataformas Android e IOS
               </h2>

@@ -20,12 +20,16 @@ export const Navbar = () => {
   ];
 
   return (
-    // bg-gradient-to-r from-secondary  
+    // bg-gradient-to-r from-secondary
     <div className="bg-brandDark text-white flex justify-between">
       <div className="container py-2">
         <div className="flex justify-between">
           {/* logo */}
-          <div className="flex items-center justify-center">
+          <div
+            className="flex items-center justify-center"
+            data-aos="fade-down"
+            data-aos-once="true"
+          >
             <a
               href=""
               className="font-bold text-2xl sm:text-4xl flex justify-center items-center gap-2 tracking-wider font-cursive"
@@ -35,7 +39,11 @@ export const Navbar = () => {
             </a>
           </div>
           {/* Links */}
-          <div className="flex justify-between items-center gap-4">
+          <div
+            className="flex justify-between items-center gap-4"
+            data-aos="fade-down"
+            data-aos-once="true"
+          >
             <ul className="hidden sm:flex items-center m-6 gap-4">
               {Menus.map((data, index) => (
                 <li key={index}>

@@ -77,7 +77,7 @@ export const Cards = () => {
       <div className="py-10 overflow-hidden">
         <div className="container">
           {/* titulo */}
-          <div className="text-center mb-20">
+          <div className="text-center mb-20" data-aos="fade-up">
             <h3 className="text-6xl font-bold font-cursive">
               O Melhor café para você!
             </h3>

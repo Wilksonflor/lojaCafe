@@ -20,7 +20,7 @@ export const Banner = () => {
       <div style={bgImage}>
         <div className="container min-h-[550px] flex justify-center items-center py-12 sm:py-0 overflow-hidden">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div>
+            <div data-aos="zoom-in">
               <img
                 src={imgBanner}
                 alt="Imagem de café com torra de café"
@@ -29,10 +29,16 @@ export const Banner = () => {
             </div>
 
             <div className="flex flex-col justify-center gap-6 sm:pt-0">
-              <h3 className="text-3xl sm:text-5xl font-bold font-cursive">
+              <h3
+                className="text-3xl sm:text-5xl font-bold font-cursive"
+                data-aos="fade-up"
+              >
                 Premium Blend - Grãos selecionados
               </h3>
-              <p className="text-sm text-gray-500 tracking-wide leading-5">
+              <p
+                data-aos="fade-up"
+                className="text-sm text-gray-500 tracking-wide leading-5"
+              >
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Consequatur sint quos cum qui quam animi vero molestias nobis
                 aperiam alias!
@@ -40,27 +46,51 @@ export const Banner = () => {
 
               <div className="grid grid-cols-2 gap-6 mt-5">
                 <div className="space-y-5 ">
-                  <div className="flex items-center gap-3">
+                  <div
+                    className="flex items-center gap-3"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
                     <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100" />
                     <span>Cafés seguros e confiáveis</span>
                   </div>
 
-                  <div className="flex items-center gap-3 mt-3 mb-3">
+                  <div
+                    className="flex items-center gap-3 mt-3 mb-3"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
                     <FaFire className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-200" />
                     <span>Café sempre quente e fresco</span>
                   </div>
 
-                  <div className="flex items-center gap-3">
+                  <div
+                    className="flex items-center gap-3"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
                     <IoFastFood className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-blue-100" />
                     <span>Combine seu café com os melhores lanches</span>
                   </div>
                 </div>
 
-                <div className="border-l-4 border-primary/50 pl-6 space-y-3">
-                  <h3 className="text-4xl font-semibold font-cursive">
+                <div
+                  className="border-l-4 border-primary/50 pl-6 space-y-3"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <h3
+                    className="text-4xl font-semibold font-cursive"
+                    data-aos="fade-left"
+                    data-aos-delay="350"
+                  >
                     Amantes de chá
                   </h3>
-                  <p className="text-gray-500 text-sm">
+                  <p
+                    className="text-gray-500 text-sm"
+                    data-aos="fade-left"
+                    data-aos-delay="350"
+                  >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Dolorem adipisci accusamus in, laudantium modi consequuntur
                     reiciendis perferendis nulla officia laboriosam.
