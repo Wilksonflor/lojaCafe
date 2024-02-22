@@ -23,16 +23,16 @@ const bgImage = {
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
-  minHeight: "400px",
+  // minHeight: "400px",
   width: "100%",
 };
 
 export const Footer = () => {
   return (
     <>
-      <div style={bgImage} className="text-white" data-aos="fade-up">
-        <div className="bg-black/40 min-h-[400px]">
-          <div className="container grid md:grid-cols-3 pb-20 pt-5">
+      <div style={bgImage} className="text-white " data-aos="fade-up">
+        <div className="bg-black/40">
+          <div className="container grid md:grid-cols-3 pb-20 pt-5 footer-container">
             {/* Detalhes da empresa */}
             <div className="py-8 px-4">
               <a
@@ -118,7 +118,6 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      ;
     </>
   );
 };

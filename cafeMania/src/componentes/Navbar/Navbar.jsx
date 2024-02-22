@@ -22,8 +22,8 @@ export const Navbar = () => {
     },
     {
       id: 3,
-      name: "Gourmet",
-      link: "/gourmet",
+      name: "Chás",
+      link: "/chas",
     },
   ];
 

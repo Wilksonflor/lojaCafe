@@ -1,8 +1,9 @@
 import Img1 from "../../assets/img/café_novo.png";
 import Img2 from "../../assets/img/café03.png";
 import Img3 from "../../assets/img/latteMacchiato.png";
-import Img4 from "../../assets/img/café04.png";
-// import Img5 from "../../assets/img/gelado.png";
+import Img4 from "../../assets/img/pngwing.com.png";
+import Img5 from "../../assets/img/Pepper.png";
+import Img6 from "../../assets/img/flatWhite.png";
 
 export const Cards = () => {
   const produtosData = [
@@ -10,65 +11,44 @@ export const Cards = () => {
       id: 1,
       img: Img1,
       name: "Tradicional",
-      descrição: "Lorem Ipsum is simply dummy text",
+      descrição: "Café preto clássico, sem adições.",
       aosDelay: "100",
     },
     {
       id: 2,
       img: Img2,
       name: "Expresso",
-      descrição: "Lorem Ipsum is simply dummy text",
+      descrição: "Café concentrado, encorpado e forte.",
       aosDelay: "100",
     },
     {
       id: 3,
       img: Img3,
-      name: "Latte Macchiato",
-      descrição: "Lorem Ipsum is simply dummy text",
+      name: "Cappuccino",
+      descrição: "Espresso com leite vaporizado e espuma.",
       aosDelay: "100",
     },
     {
       id: 4,
       img: Img4,
-      name: "Expresso",
-      descrição: "Lorem Ipsum is simply dummy text",
+      name: "Café Latte",
+      descrição: "Espresso com leite vaporizado, suave e cremoso.",
       aosDelay: "100",
     },
-    // {
-    //   id: 5,
-    //   img: Img3,
-    //   name: "Expresso",
-    //   descrição: "Lorem Ipsum is simply dummy text",
-    //   aosDelay: "100",
-    // },
-    // {
-    //   id: 6,
-    //   img: Img1,
-    //   name: "Tradicional",
-    //   descrição: "Lorem Ipsum is simply dummy text",
-    //   aosDelay: "100",
-    // },
-    // {
-    //   id: 7,
-    //   img: Img1,
-    //   name: "Tradicional",
-    //   descrição: "Lorem Ipsum is simply dummy text",
-    //   aosDelay: "100",
-    // },
-    // {
-    //   id: 8,
-    //   img: Img1,
-    //   name: "Tradicional",
-    //   descrição: "Lorem Ipsum is simply dummy text",
-    //   aosDelay: "100",
-    // },
-    // {
-    //   id: 9,
-    //   img: Img1,
-    //   name: "Tradicional",
-    //   descrição: "Lorem Ipsum is simply dummy text",
-    //   aosDelay: "100",
-    // },
+    {
+      id: 5,
+      img: Img5,
+      name: "Pepper Brew Coffee",
+      descrição: "Café com um toque picante de pimenta.",
+      aosDelay: "100",
+    },
+    {
+      id: 6,
+      img: Img6,
+      name: "Flat White",
+      descrição: "Café suave da Austrália e Nova Zelândia.",
+      aosDelay: "100",
+    },
   ];
 
   return (
@@ -84,7 +64,7 @@ export const Cards = () => {
           </div>
 
           {/* Section dos cards dos produtos */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 mg:grid cols-3 gap-14 md:gap-14 place-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-14 place-items-center">
             {produtosData.map((data, index) => {
               return (
                 <div
@@ -97,7 +77,7 @@ export const Cards = () => {
                     <img
                       src={data.img}
                       alt=""
-                      className="max-w-[170px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
+                      className="max-w-[170px] max-h-[170px] cover mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
                     />
                   </div>
 

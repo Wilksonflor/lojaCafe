@@ -64,14 +64,6 @@ export const SlideFeedback = () => {
         },
       },
       {
-        breakpoint: 1000,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
@@ -118,7 +110,7 @@ export const SlideFeedback = () => {
                       </h2>
                     </div>
                   </div>
-                  <p className="text-black/20 text-6xl font-serif absolute top-0 right-0">
+                  <p className="text-black/20 text-7xl font-serif absolute top-0 right-0">
                     ,,
                   </p>
                 </div>
