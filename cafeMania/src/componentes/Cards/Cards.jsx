@@ -3,7 +3,7 @@ import Img2 from "../../assets/img/café03.png";
 import Img3 from "../../assets/img/latteMacchiato.png";
 import Img4 from "../../assets/img/pngwing.com.png";
 import Img5 from "../../assets/img/Pepper.png";
-import Img6 from "../../assets/img/flatWhite.png";
+// import Img6 from "../../assets/img/coffeMarshmellow.png";
 
 export const Cards = () => {
   const produtosData = [
@@ -42,13 +42,13 @@ export const Cards = () => {
       descrição: "Café com um toque picante de pimenta.",
       aosDelay: "100",
     },
-    {
-      id: 6,
-      img: Img6,
-      name: "Flat White",
-      descrição: "Café suave da Austrália e Nova Zelândia.",
-      aosDelay: "100",
-    },
+    // {
+    //   id: 6,
+    //   img: Img6,
+    //   name: "Café com canela",
+    //   descrição: "",
+    //   aosDelay: "100",
+    // },
   ];
 
   return (
@@ -64,7 +64,7 @@ export const Cards = () => {
           </div>
 
           {/* Section dos cards dos produtos */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-14 place-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-16 md:gap-14 place-items-center">
             {produtosData.map((data, index) => {
               return (
                 <div
